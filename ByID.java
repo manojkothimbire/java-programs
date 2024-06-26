@@ -21,11 +21,11 @@ public class ByID {
 		
 	
 		
-	WebElement username=driver.findElement(By.id("txtUsername"));
+	WebElement username=driver.findElement(By.id("Username"));
 	username.sendKeys("admin");
 	Thread.sleep(2000);
 
-	WebElement password=driver.findElement(By.name("txtPassword"));
+	WebElement password=driver.findElement(By.name("Password"));
 	password.sendKeys("admin123");
 	Thread.sleep(2000);
 	
